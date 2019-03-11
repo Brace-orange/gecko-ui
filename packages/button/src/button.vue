@@ -1,11 +1,12 @@
 <template>
     <div>
-        <input class="gecko-button" type="button" value="测试按钮"/>fdfdsggggggggggggggggggggggggggggg
+        <!-- <input class="gecko-button" type="button" value="测试按钮"/>fdfdsggggggggggggggggggggggggggggg -->
+        测试组件
     </div>
 </template>
 <script>
 export default {
-    name: 'Button'
+    name: 'gecButton'
 }
 </script>
 <style lang="scss">

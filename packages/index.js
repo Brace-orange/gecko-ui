@@ -1,7 +1,7 @@
-import Button from './button/index'
+import gecButton from './Button/index'
 
 const components = [
-    Button,
+    gecButton,
 ]
 
 const install = function (Vue) {
@@ -20,5 +20,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
     install,
-    Button,
+    gecButton,
 }

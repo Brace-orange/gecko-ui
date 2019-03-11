@@ -1,9 +1,9 @@
-import Button from './src/button.vue'
+import gecButton from './src/Button.vue'
 
-Button.install = function (Vue) {
+gecButton.install = function (Vue) {
     Vue.component(
-        Button.name, Button
+        gecButton.name, gecButton
     )
 }
 
-export default Button
+export default gecButton
