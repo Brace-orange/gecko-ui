@@ -1,9 +1,11 @@
 import gecButton from './Button/index'
 import gecLoading from './Loading/index'
+import gecLoader from './Uploader/index'
 
 const components = [
     gecButton,
-    gecLoading
+    gecLoading,
+    gecLoader
 ]
 
 const install = function (Vue) {
@@ -23,5 +25,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
     install,
     gecButton,
-    gecLoading
+    gecLoading,
+    gecLoader
 }
