@@ -11,6 +11,17 @@
     <noscript>
       <strong>We're sorry but gecko-ui doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+    <script>
+        function rem() {
+            let width = document.documentElement.getBoundingClientRect().width
+            document.getElementsByTagName('html')[0].style.fontSize = width * 100 / 750 + 'px'
+            console.log(width)
+        }
+        rem();
+        window.onresize = function()  {
+            rem()
+        }
+    </script>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

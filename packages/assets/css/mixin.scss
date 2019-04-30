@@ -1,0 +1,7 @@
+@function rem($px) {
+    @return $px / 100px + rem
+};
+
+html, body * {
+    box-sizing: border-box;
+}

@@ -14,7 +14,7 @@ export default {
             default: '50',
         },
         gecLoading: {
-            type: Boolean,
+            type: Boolean,        
             default: true
         }
     },

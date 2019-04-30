@@ -1,7 +1,7 @@
 <template>
     <div :class="[$style.uploader]">
         <div :class="[$style.photo]">
-            <img :src="a"/>
+            <img src="../../assets/logo.png"/>
             <input :class="[$style.file]" type="file" @change="chooseFile()" ref="filedom"/>
         </div>
     </div>
@@ -21,8 +21,8 @@ export default {
     methods: {
         chooseFile () {
             const that = this.$refs.filedom
-            this.a = that.value
-            console.log(that.value)
+            this.a = that.file
+            console.log(this.a)
         }
     }
 }
@@ -45,11 +45,15 @@ export default {
           content: '';
           position: absolute;
           top: 0; right: 0; top: 0; bottom: 0;
-          background: yellow;
+        //   background: yellow;
       }
-      background-color: yellow;
+    //   background-color: yellow;
       top: 0; left: 0;
     //   z-index: -1;
+    // img {
+    //     width: 100%;
+    //     height: 100%;
+    // }
   }
 
 }
